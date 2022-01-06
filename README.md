@@ -2,6 +2,8 @@
 
 Collection of jupyter formatters and other stuff that I'm using on my projects both as pre-commit hooks and jupyter extensions.
 
+*This repo is created so I can reference it instead of searching for the pre-commit config file and jupyter lab extensions every time I start a new project*
+
 ## pre-commit hooks 
 
 I'm using [nbQA](https://github.com/nbQA-dev/nbQA) with my pre-commit hook. 
@@ -17,9 +19,9 @@ pip install pre-commit
 
 as single bash command: 
 ```bash
-
 pip install pre-commit &&\
-wget
+wget https://raw.githubusercontent.com/subpath/jupyter-recepies/main/.pre-commit-config.yaml &&\
+pre-commit install
 ```
 
 ### Usage:
