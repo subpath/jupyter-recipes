@@ -1,0 +1,23 @@
+repos:
+  - repo: https://github.com/nbQA-dev/nbQA
+    rev: 1.2.2
+    hooks:
+      # autoflake can be unstable with
+      # jupyter magic commands
+      # use it on your own risk
+      - id: nbqa
+        name: nbqa-autoflake
+        description: "Run 'autoflake' on a Jupyter Notebook"
+        entry: nbqa autoflake --in-place
+        language: python
+        require_serial: true
+        types: [jupyter]
+        additional_dependencies: [autoflake]
+      - id: nbqa-black
+      - id: nbqa-check-ast
+      - id: nbqa-flake8
+      - id: nbqa-isort
+      - id: nbqa-mypy
+      - id: nbqa-pyupgrade
+      - id: nbqa-autopep8
+      - id: nbqa-yapf
