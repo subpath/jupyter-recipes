@@ -34,7 +34,8 @@ pre-commit run --all-files
 
 <img width="655" alt="изображение" src="https://user-images.githubusercontent.com/11722602/148508136-2c4e5d62-11a0-483e-9e07-9507cd4e762d.png">
 
-![ezgif com-gif-maker(1)](https://user-images.githubusercontent.com/11722602/148510966-4e902ed2-6ee6-47b3-aa26-859b1fb668f3.gif)
+![ezgif com-gif-maker(2)](https://user-images.githubusercontent.com/11722602/148512481-8ee132bd-9c1d-4413-9bfd-7512bcb5da96.gif)
+
 
 ## Useful extensions
 
