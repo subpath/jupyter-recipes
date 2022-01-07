@@ -1,6 +1,6 @@
-# jupyter-recepies
+# jupyter-recipes
 
-Collection of jupyter formatters and other stuff that I'm using on my projects both as pre-commit hooks and jupyter extensions.
+Collection of jupyter formatters, linters and other stuff that I'm using on my projects both as pre-commit hooks and jupyter extensions.
 
 *This repo is created so I can reference it instead of searching for the pre-commit config file and jupyter lab extensions every time I start a new project*
 
