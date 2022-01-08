@@ -13,7 +13,7 @@ I'm using [nbQA](https://github.com/nbQA-dev/nbQA) with my pre-commit hook.
 ```bash
 pip install pre-commit
 ```
-2. Add [pre-commit-config.yaml](pre-commit-config.yaml) to the root of your project. You can find all available hooks from nbQA [here](https://github.com/nbQA-dev/nbQA/blob/master/.pre-commit-hooks.yaml). 
+2. Add [pre-commit-config.yaml](.pre-commit-config.yaml) to the root of your project. You can find all available hooks from nbQA [here](https://github.com/nbQA-dev/nbQA/blob/master/.pre-commit-hooks.yaml). 
 
 3. `pre-commit install`
 
